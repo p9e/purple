@@ -1,13 +1,21 @@
 html {
   font-family: sans-serif;
   font-size: 3ch;
-  font-size: max(3ch, 1ch + 1vw + 1vh);
+  font-size: max(3ch, 1ch + 1vw + 1vh + 1pt);
   line-height: 1.618;
 }
 
 body { 
   margin: 1em;
   margin-bottom: 2em;
+}
+
+a {
+  display: inline-block;
+}
+
+.ep {
+  display: inline;
 }
 
 article {
@@ -31,7 +39,7 @@ time {
   font-weight: normal;
 }
 
-cite {
+header cite {
   font-weight: bold; 
 }
 
@@ -41,6 +49,11 @@ span {
 
 del {
   font-size: 0;
+}
+
+i {
+  font: unset;
+  font-weight: 600;
 }
 
 ins {
