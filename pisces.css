@@ -1,0 +1,110 @@
+:any-link { 
+  background-color: transparent;
+  color: inherit;
+}
+
+/*
+opensource mixturing
+https://webmural.com
+*/
+
+:root {
+  --pulp: rgb(180, 90, 240);
+  --plur: rgb(150, 108, 333);
+  --pynk: rgb(240, 120, 330); 
+  --punk: rgb(270, 120, 330);
+  --pluw: plum;
+  --kink: rgb(120, 100, 300);
+  --ooze: rgb(210, 210, 210);
+	--xxze: rgb(30, 10, 20);
+	--oooo: var(--ooze);
+	--xxxx: var(--xxze);
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    --pulp: rgb(230, 130, 300);
+    --plur: rgb(180, 144, 333);
+    --kink: rgb(160, 160, 300);
+  }
+}
+
+.xxze.xxze {
+  --oooo: var(--xxze);
+  --xxxx: var(--ooze);
+  background-color: var(--xxze);
+  color: var(--ooze);
+}
+
+.ooze.ooze {
+  --oooo: var(--ooze);
+  --xxxx: var(--xxze);
+  background-color: var(--ooze);
+  color: var(--xxze);
+}
+
+@media (prefers-color-scheme: dark) {
+  .xxze.ooze {
+    --oooo: var(--xxze);
+    --xxxx: var(--ooze);
+    background-color: var(--xxze);
+    color: var(--ooze);
+  }
+}
+
+.oooo {
+  text-shadow:
+    0 2ex 1pc var(--oooo),
+    0 3ex 1pc var(--oooo),
+    0 2em 1pc var(--oooo);
+}
+
+::selection {
+	background: var(--xxxx);
+  color: var(--oooo);
+}
+
+.heat { --ooze: var(--heat) }
+.bath { --ooze: var(--bath) }
+.nemo { --ooze: var(--nemo) }
+.jupe { --ooze: var(--jupe) }
+.volt { --ooze: var(--volt) }
+.lawn { --ooze: var(--lawn) }
+.moss { --ooze: var(--moss) }
+.wind { --ooze: var(--wind) }
+.teal { --ooze: var(--teal) }
+.rain { --ooze: var(--rain) }
+.pour { --ooze: var(--pour) }
+.plur { --ooze: var(--plur) }
+.pulp { --ooze: var(--pulp) }
+.pynk { --ooze: var(--pynk) }
+.punk { --ooze: var(--punk) }
+.pluw { --ooze: var(--pluw) }
+.kink { --ooze: var(--kink) }
+
+[href] {
+  color: inherit;
+  background-color: transparent;
+}
+
+:focus {
+  outline: thick groove;
+  box-shadow: 0 0 .8ex .8ex var(--xxxx, plum);
+}
+
+@media (prefers-color-scheme: light) {
+  .spectre {
+    background-image: linear-gradient(
+      var(--pulp),
+      var(--plur),
+      var(--kink),
+      var(--plur)
+    );
+  }
+} 
+
+@media (prefers-color-scheme: dark) {
+  .spectre {
+    text-shadow: 0 0 1ex;
+  }
+}

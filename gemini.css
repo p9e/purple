@@ -1,0 +1,33 @@
+html { 
+  font-size: max(3ch, 1ch + 1vw + 1vh);
+  line-height: 1.618;
+}
+
+body { margin: 1em 1em 2em 2em }
+:focus { outline: thick groove }
+
+
+time {
+  font-weight: normal;
+}
+
+cite {
+  font-weight: bold; 
+}
+
+del {
+  font-size: 0;
+}
+
+h1 {
+  font-size: 2.618em;
+}
+
+h2,
+ins {
+  font-size: 1.618em;
+}
+
+.fleek {
+  margin-block: 0;
+}

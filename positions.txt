@@ -1,0 +1,16 @@
+GUESS 707PM GMT
+Sun,Aries,3°21’
+Moon,Libra,26°29’
+Mercury,Pisces,7°09’
+Venus,Pisces,2°34’
+Mars,Libra,16°34’,℞
+Jupiter,Pisces,19°45’
+Saturn,Gemini,23°52’
+Uranus,Taurus,18°14’
+Neptune,Pisces,18°27’
+Pluto,Taurus,3°28’
+Node,Aries,25°47’,℞
+Lilith,Virgo,23°20’
+Chiron,Aquarius,4°20’
+Fortune,Pisces,19°36’
+Vertex,Aries,29°10’
