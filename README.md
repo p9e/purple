@@ -1,1 +1,1 @@
-## [purple me apart](index.html)
+## [purple synthesis](https://p9e.page/purple)
